@@ -1,3 +1,20 @@
+### Tunely
+
+Capstone project.
+
+Deployed at: https://tunely-capstone.vercel.app/
+
+Web application for uploading mp3 files and curating your own favorites list of music. All users have access to the library of all songs uploaded by everyone from the main dashboard upon login. From there, you can find your own uploaded files on the sidebar.
+
+Inlcudes fully functional player that will cycle through tracks in order based on where they are on the grid.
+
+Features implemented were email/pw login and authentication with supabase auth, toasts for specific user tasks (liking and unliking tracks), uploading image files and mp3s, and allowing seamless playback of continuous tracks which will loop back to the first one upon finishing.
+
+Standard user flow of the site is signing in or creating an account and then uploading your own mp3 files to curate your playlists. Then, also favoriting and searching for songs uploaded by others.
+
+Technology stack:
+Next, Typescript, Tailwind, supabase db/storage/auth
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
